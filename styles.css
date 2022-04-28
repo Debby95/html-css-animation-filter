@@ -145,3 +145,35 @@
         transform: rotate(0deg);
     }
 }
+
+.ex-12-button:hover .ex-12-top-white {
+    animation: TopWhiteMovement 1.5s linear;
+}
+
+@keyframes TopWhiteMovement {
+    0% {
+        right: 10%;
+    }
+    50% {
+        right: 50%;
+    }
+    100% {
+        right: 10%;
+    }
+}
+
+.ex-12-button:hover .ex-12-bottom-white {
+    animation: BottomWhiteMovement 1.5s linear;
+}
+
+@keyframes BottomWhiteMovement {
+    0% {
+        left: 10%;
+    }
+    50% {
+        left: 50%;
+    }
+    100% {
+        right: 10%;
+    }
+}
