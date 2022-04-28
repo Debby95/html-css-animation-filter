@@ -184,12 +184,30 @@
 
 @keyframes TopWhiteMovementAll {
     0% {
-        right: 20%;
+        right: 0%;
+        bottom: 10%
     }
     50% {
-        left: 60%;
+        left: 0%;
     }
     100% {
-        left: 20%;
+        left: 100%;
+    }
+}
+
+.ex-13-button:hover .ex-13-bottom-white {
+    animation: BottomWhiteMovementAll 1.5s linear;
+}
+
+@keyframes BottomWhiteMovementAll {
+    0% {
+        right: 0%;
+        bottom: 10%
+    }
+    50% {
+        left: 0%;
+    }
+    100% {
+        left: 100%;
     }
 }
