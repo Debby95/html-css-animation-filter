@@ -177,3 +177,19 @@
         right: 10%;
     }
 }
+
+.ex-13-button:hover .ex-13-top-white {
+    animation: TopWhiteMovementAll 1.5s linear;
+}
+
+@keyframes TopWhiteMovementAll {
+    0% {
+        right: 20%;
+    }
+    50% {
+        left: 60%;
+    }
+    100% {
+        left: 20%;
+    }
+}
