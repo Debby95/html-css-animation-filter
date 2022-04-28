@@ -152,13 +152,13 @@
 
 @keyframes TopWhiteMovement {
     0% {
-        right: 10%;
+        left: 10%;
     }
     50% {
-        right: 50%;
+        left: 50%;
     }
     100% {
-        right: 10%;
+        left: 10%;
     }
 }
 
@@ -168,10 +168,10 @@
 
 @keyframes BottomWhiteMovement {
     0% {
-        left: 10%;
+        right: 10%;
     }
     50% {
-        left: 50%;
+        right: 50%;
     }
     100% {
         right: 10%;
