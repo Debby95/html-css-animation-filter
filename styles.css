@@ -184,14 +184,16 @@
 
 @keyframes TopWhiteMovementAll {
     0% {
-        right: 0%;
-        bottom: 10%
+        left: 10%;
+        top: -10%
     }
     50% {
-        left: 0%;
+        left: 10%;
+        top: -10%;
     }
     100% {
-        left: 100%;
+        left: 80%;
+        top: -10%;
     }
 }
 
@@ -202,12 +204,14 @@
 @keyframes BottomWhiteMovementAll {
     0% {
         right: 0%;
-        bottom: 10%
+        bottom: -10%;
     }
     50% {
-        left: 0%;
+        right: 0%;
+        bottom: -10px;
     }
     100% {
-        left: 100%;
+        right: 80%;
+        bottom: -10%;
     }
 }
